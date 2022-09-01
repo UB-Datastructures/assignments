@@ -1,6 +1,6 @@
 # Project 0: Setting Up
 
-**Due: Wednesday 09/07/22 Before 11:59 PM**
+**Due: Friday 09/09/22 Before 11:59 PM**
 
 **Total Points = 0 (you must complete this assignment to get a passing grade)**
 
