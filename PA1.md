@@ -17,7 +17,6 @@ In this assignment, you will:
     * How to edit/compile/debug code in Scala.
     * How to find/read the Scala documentation and use standard libraries
     * How to read and parse a CSV file in Scala
-    * How to write a file in Scala
 
 ## Useful Resources
 
@@ -342,34 +341,40 @@ number 0 corresponds to the first/left-most column):
 
 | Column | Label
 | ------ | -----------------------------------------
-| 0      | REPORTING_PERIOD
-| 2      | PROJECT_NUMBER
-| 4      | CITY
-| 5      | COUNTY
-| 6      | STATE
-| 7      | ZIP_CODE
-| 8      | SECTOR
-| 12     | PURCHASE_TYPE
-| 14     | DATE_COMPLETED
-| 15     | PROJECT_STATUS
-| 16     | CONTRACTOR
-| 17     | PRIMARY_INVERTER_MANUFACTURER
-| 18     | PRIMARY_INVERTER_MODEL_NUMBER
-| 19     | TOTAL_INVERTER_QUANTITY
-| 20     | PRIMARY_PV_MODULE_MANUFACTURER
-| 21     | PV_MODULE_MODEL_NUMBER
-| 22     | TOTAL_PV_MODULE_QUANTITY
-| 23     | PROJECT_COST
-| 24     | INCENTIVE
-| 25     | TOTAL_NAMEPLATE_KW_DC
-| 26     | EXPECTED_KWH_ANNUAL_PRODUCTION
-| 28     | AFFORDABLE_SOLAR
-| 29     | COMMUNITY_DISTRIBUTED_GENERATION
-| 30     | GREEN_JOBS_GREEN_NEW_YORK_PARTICIPANT
+|      0 | Reporting Period
+|      1 | Project Number
+|      3 | Street Address
+|      9 | Municipality Type
+|     10 | Census Tract
+|     11 | Sector
+|     12 | Program Type
+|     14 | Electric Utility
+|     15 | Purchase Type
+|     17 | Date Completed
+|     18 | Project Status
+|     19 | Contractor
+|     20 | Minority or Women Owned Business Enterprise (MWBE)
+|     21 | Primary Inverter Manufacturer
+|     22 | Primary Inverter Model Number
+|     23 | Total Inverter Quantity
+|     24 | Primary PV Module Manufacturer
+|     25 | PV Module Model Number
+|     26 | Total PV Module Quantity
+|     27 | Project Cost
+|     28 | $Incentive
+|     29 | Total Nameplate kW DC
+|     30 | Expected KWh Annual Production
+|     31 | Remote Net Metering
+|     32 | Affordable Solar
+|     33 | Community Distributed Generation
+|     34 | Green Jobs Green New York Participant
+|     35 | Latitude
+|     36 | Longitude
+|     37 | Georeference
 
-When you are finished, a `SolarInstallation` should contain exactly 24 entries (one
+When you are finished, a `SolarInstallation` should contain exactly 30 entries (one
 piece of data associated with each header).  This will cause the resulting updated
-output file after running the given code to contain exactly 24 columns in each
+output file after running the given code to contain exactly 30 columns in each
 row.  See more on the `SolarInstallation` Objects section below.
 
 **Problem 3** *(5 points)* In the object `cse250.pa1.DataProcessor` define the
