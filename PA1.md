@@ -270,7 +270,7 @@ This template project contains both SBT and IntelliJ project definitions.
 
 Answer the following questions by:
 
-1. [Accept The PA1 Assignment in GitHub Classroom](https://classroom.github.com/a/S55liqkK).
+1. Accept The PA1 Assignment in GitHub Classroom.
 2. Use the template repository to answer the questions below.
 3. Commit **and push** your answers to GitHub
 4. [Submit PA1 in Autolab](https://autograder.cse.buffalo.edu/courses/CSE250-f22/assessments/pa1scala)
