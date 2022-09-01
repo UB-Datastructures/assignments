@@ -388,7 +388,7 @@ computeAverageCostPerKWH(dataset: Array[SolarInstallation]): Float
 ``` 
 that determines the average cost-per-KWH of all solar installations in the state.  This
 corresponds to the ratio of the sums of the two corresponding columns:
-$$\frac{\textbf{sum}(\texttt{PROJECT\_COST})}{\textbf{sum}(\texttt{EXPECTED\_KWH\_ANNUAL\_PRODUCTION})}$$
+$$\frac{\textbf{sum}(\texttt{PROJECT\\_COST})}{\textbf{sum}(\texttt{EXPECTED\\_KWH\\_ANNUAL\\_PRODUCTION})}$$
 
 Note that your answer produced should make sense, so you should assume that the energy produced
 by each installation should be positive.  If no valid data is found, you should return 0.
