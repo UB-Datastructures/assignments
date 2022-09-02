@@ -308,10 +308,10 @@ Pick `Test` to run test cases in `src/test/scala/cse250/pa1/`, and `Run` to run 
 
 Answer the following questions by:
 
-1. Accept The PA1 Assignment in GitHub Classroom.
+1. Accept [The PA1 Assignment in GitHub Classroom](https://classroom.github.com/a/S55liqkK).
 2. Use the template repository to answer the questions below.
 3. Commit **and push** your answers to GitHub
-4. [Submit PA1 in Autolab](https://autograder.cse.buffalo.edu/courses/CSE250-f22/assessments/pa1scala)
+4. [Submit PA1 in Autolab](https://autograder.cse.buffalo.edu/courses/CSE250-f22/assessments/pa1scala) (note: Submissions open September 10).
 
 Make sure your submission is committed and pushed into your GitHub Classroom Git repository.  
 Seriously, make sure it's committed.  Yeah you... the person who clicked submit without checking.
