@@ -253,17 +253,56 @@ Install SBT with `{brew/apt} install sbt` or the instructions [here](https://www
 
 ### IntelliJ
 
-At your option, you may find it more convenient to use IDE (an all-in-one system that 
+You may find it more convenient to use IDE (an all-in-one system that 
 includes both an editor and a compiler).  A popular IDE for scala development that 
 course staff are familiar with is [IntelliJ](https://www.jetbrains.com/idea/download/).
 Installers for Ubuntu are available via [Flatpak](https://flatpak.org/setup/Ubuntu/).
 
 You will need to install the **Scala** plugin (File → Settings → Plugins → Scala).
 
+![The IntelliJ plugins settings wind with the Scala plugin showing](graphics/scalaplugin.png)
+
 ### Set up your GIT repository
 
+This template project contains an SBT project definition.  Once you accept the PA1 project, clone it onto your computer
 
-This template project contains both SBT and IntelliJ project definitions.  
+##### On the Command Line
+
+```
+git clone git@github.com:UB-Datastructures/fall-2022-pa1-scala-your_username_here.git
+```
+
+(replace `your_username_here` with your GitHub username)
+
+##### In IntelliJ
+
+Load the project from Version Control (File → New → Project from Version Control).  Paste in the URL of your PA1 project.
+
+![The IntelliJ load from GIT panel](graphics/intellij_loadfromvcs.png)
+
+The URL usually has the form: `git@github.com:UB-Datastructures/fall-2022-pa1-scala-your_username_here.git` (replace `your_username_here` with your GitHub username).
+
+In order to use IntelliJ to run your project, you will need to add a Run Configuration.  Click "Add Configuration" in the upper right.
+
+![The IntelliJ run toolbar](graphics/intellij_addconfig.png)
+
+Click "Add New..." and select "SBT Task"
+
+![The IntelliJ new run configuration type picker](graphics/intellij_addnewtypepicker.png)
+
+Enter:
+
+* `run` into the **Tasks** field
+* `Run` into the **Name** field
+
+![The IntelliJ run configurations setting](graphics/intellij_runconfig.png)
+
+To add support for test cases, add a new "SBT Task" with the **+** button in the upper left.  Enter:
+
+* `test` into the **Tasks** field
+* `Test` into the **Name** field
+
+Pick `Test` to run test cases in `src/test/scala/cse250/pa1/`, and `Run` to run the main function in `src/main/scala/cse250/pa1/Main.scala`.
 
 ## Instructions
 
