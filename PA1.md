@@ -304,6 +304,13 @@ To add support for test cases, add a new "SBT Task" with the **+** button in the
 
 Pick `Test` to run test cases in `src/test/scala/cse250/pa1/`, and `Run` to run the main function in `src/main/scala/cse250/pa1/Main.scala`.
 
+**If you get an error telling you that you do not have a SDK installed, you will need to install one.**
+
+Right-click the CSE-250 project in the menu on the left and choose "Module Settings".
+Switch to the "SDKs" tab, click the **+** button, and pick a JVM version to install.  For CSE-250, it should not matter what JDK version you install (The present default: `openjdk-18` should be fine).
+
+![The IntelliJ project settings window with SDK options selected](graphics/intellij_projectsettings.png)
+
 ## Instructions
 
 Answer the following questions by:
