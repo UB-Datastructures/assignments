@@ -236,7 +236,7 @@ To find the name of a package, you can use:
 * **Ubuntu**: `apt search [keywords]`
 * **MacOS**: `brew search [keywords]`
 
-### Editor + Mill
+### Editor + SBT
 
 You will need a text editor and a Scala compiler for this course.  Popular editors 
 include
