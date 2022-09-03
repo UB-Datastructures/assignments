@@ -2,6 +2,8 @@
 
 **Due: Friday 09/09/22 Before 11:59 PM**
 
+**GitHub Classroom Invitation**: [https://classroom.github.com/a/PlrG3VFz](https://classroom.github.com/a/PlrG3VFz)
+
 **Total Points = 0 (you must complete this assignment to get a passing grade)**
 
 ## Objectives

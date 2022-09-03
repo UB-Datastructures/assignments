@@ -6,6 +6,8 @@
 
 **Submissions Open: Saturday 09/10/22 Before 11:59 PM**
 
+**GitHub Classroom Invitation**: [https://classroom.github.com/a/S55liqkK](https://classroom.github.com/a/S55liqkK)
+
 **Total Points = 30**
 
 ## Objectives
