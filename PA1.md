@@ -365,7 +365,7 @@ rows that contain cells with commas (see the CSV representation rules below).
 
 A good way to test this functionality is to ensure that the first row of the dataset,
 which contains the header, should return a copy of the row.  The second row of the
-dataset, which contains successive blank entries, should still return a row with 51 
+dataset, which contains successive blank entries, should still return a row with 38 
 entries, but should have two empty values for the `ELECTRIC_UTILITY` and 
 `PURCHASE_TYPE` fields, respectively.  Feel free to add the tests provided in this 
 handout.
