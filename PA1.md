@@ -434,7 +434,7 @@ that determines the number of unique Inverter Manufacturers (corresponding to th
 `Primary Inverter Manufacturer` column).  You should ignore any empty entry from
 your count, as well as the column header.
 
-**Problem 5** *(5 points)* In the object `cse250.pa1.DataProcessor` define the
+**Problem 4** *(5 points)* In the object `cse250.pa1.DataProcessor` define the
 Scala function:
 ```scala
 computeAverageCostPerKWH(dataset: Array[SolarInstallation]): Float
